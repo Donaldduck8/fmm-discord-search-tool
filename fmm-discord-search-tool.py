@@ -225,7 +225,7 @@ def load_results():
     results_files = [x for x in os.listdir(RESULTS_DIR) if x.endswith(".json")]
 
     for i, results_name in enumerate(results_files):
-        print(i, results_name)
+        print(i, " | ", results_name)
 
     file_index = int(input("Please select the result you would like to load (-1 to exit): "))
 
@@ -375,4 +375,5 @@ def main():
             traceback.print_exc()
             pass
 
-main()
+if __name__ == "__main__":
+    main()
