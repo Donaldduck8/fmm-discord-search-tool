@@ -200,9 +200,6 @@ def search_bandcamp(query_string):
 
         page_number += 1
 
-        if page_number >= 29:
-            keep_going = False
-
         time.sleep(0.5)
 
     return results
