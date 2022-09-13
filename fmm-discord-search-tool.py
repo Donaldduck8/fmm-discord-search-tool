@@ -32,8 +32,8 @@ sc_headers = {
 
 sc_session.headers.update(sc_headers)
 
-sc_client_id = "aG2FjTwcYv7xe1bZELqpOtGOTMSDQ1Bj" # Yes, I made sure this is anonymous, thank you :)
-sc_app_version = "1644847185"
+sc_client_id = "XM9kLvz630ASoFHWGGjGXeoDLr77yRbs" # Yes, I made sure this is anonymous, thank you :)
+sc_app_version = "1662969663"
 
 #################################################################### ACTUAL CODE
 
