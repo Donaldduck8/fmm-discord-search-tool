@@ -37,3 +37,13 @@ Inside this file are all the filtered results which you can now check one-by-one
 ![](https://cdn.discordapp.com/attachments/580764088909692947/1019424884033589398/unknown.png)
 
 Ta-da! Good luck on your searches!
+
+## Updating the Soundcloud Client ID
+Eventually, the hard-coded client ID and app ID will expire and this tool will break. I haven't found a good way around this just yet, so in this case you'll have to fix it yourself. Not to worry though, it's a simple process! Open up Soundcloud in your browser, then open up the developer tools and switch to the "Network" tab. Type "client_id" into the search bar and some requests should be visible in the list.
+
+![](https://media.discordapp.net/attachments/580764088909692947/1019428432280551445/unknown.png)
+
+Copy the client ID and the app ID from one of those requests and replace the following fields inside of ``fmm-discord-search-tool.py``:
+
+![grafik](https://user-images.githubusercontent.com/18058757/190042284-24c78706-440d-4f0d-a977-4d115a271fb3.png)
+
